@@ -1,0 +1,8 @@
+﻿name: "azure-bootstrap"
+version: "0.1.0"
+usage: "Generate Helm template files inside _templates pulling secrets from Azure Key Vault"
+description: |-
+  Generates template files inside _templates to templates pulling secrets from Azure Key Vault
+ignoreFlags: false
+useTunnel: false
+command: "powershell $HELM_PLUGIN_DIR/HelmAzureBootstrap.ps1 -root (pwd).Path"
