@@ -5,4 +5,4 @@ description: |-
   Generates template files inside _templates to templates pulling secrets from Azure Key Vault
 ignoreFlags: false
 useTunnel: false
-command: "powershell $HELM_PLUGIN_DIR/HelmAzureBootstrap.ps1 -root (pwd)"
+command: "pwsh $HELM_PLUGIN_DIR/HelmAzureBootstrap.ps1 -root (pwd)"
